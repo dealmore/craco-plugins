@@ -1,0 +1,17 @@
+{
+  "include": ["."],
+  "compilerOptions": {
+    "module": "ESNext",
+    "lib": ["ES2019"],
+    "importHelpers": true,
+    "declaration": false,
+    "sourceMap": false,
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
+  }
+}

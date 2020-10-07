@@ -1,0 +1,15 @@
+{
+  "name": "workspace-root",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "plugins/**",
+    "examples/**"
+  ],
+  "devDependencies": {
+    "@craco/craco": "^5.7.0",
+    "@types/node": "^12.0.0",
+    "tsdx": "^0.13.0",
+    "typescript": "^3.9.0"
+  }
+}
