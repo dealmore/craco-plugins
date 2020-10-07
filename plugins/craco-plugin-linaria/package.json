@@ -1,0 +1,16 @@
+{
+  "name": "@dealmore/craco-plugin-linaria",
+  "description": "",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsdx build --entry index.ts --target node --format cjs"
+  },
+  "peerDependencies": {
+    "@craco/craco": "^5.0.0",
+    "linaria": ">=2.0.0-alpha"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

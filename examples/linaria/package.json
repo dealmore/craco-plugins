@@ -1,10 +1,10 @@
 {
-  "name": "babel-include",
+  "name": "linaria",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@craco/craco": "^5.7.0",
-    "@dealmore/craco-plugin-babel-include": "^1.0.0",
+    "@dealmore/craco-plugin-linaria": "^1.0.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -12,6 +12,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "linaria": "^2.0.0-rc.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
