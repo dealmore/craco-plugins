@@ -14,7 +14,18 @@ npm i --save-dev @dealmore/craco-plugin-babel-include   # npm or
 yarn add -D @dealmore/craco-plugin-babel-include        # yarn
 ```
 
-See installation & configuration in the Readme of this plugin: [Readme](./plugins/craco-plugin-babel-include)
+Usage & configuration: [Readme](./plugins/craco-plugin-babel-include)
+
+## linaria
+
+Use linaria 2+ together with create react app.
+
+```sh
+npm i --save-dev @dealmore/craco-plugin-linaria  # npm or
+yarn add -D @dealmore/craco-plugin-linaria       # yarn
+```
+
+Usage & configuration: [Readme](./plugins/craco-plugin-linaria)
 
 ## License
 
