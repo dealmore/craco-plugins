@@ -29,9 +29,9 @@ module.exports = {
 
 ## Options
 
-| Option    | Type                | Description                               |
-| --------- | ------------------- | ----------------------------------------- |
-| `include` | `string | string[]` | npm-package name or directory to include. |
+| Option    | Type                 | Description                               |
+| --------- | -------------------- | ----------------------------------------- |
+| `include` | `string \| string[]` | npm-package name or directory to include. |
 
 ## Example
 
