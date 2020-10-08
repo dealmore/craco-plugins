@@ -1,11 +1,31 @@
 {
   "name": "@dealmore/craco-plugin-babel-include",
-  "description": "",
   "version": "1.0.0",
+  "description": "Craco plugin which allows to import uncompiled modules from outside the src directory",
+  "keywords": [
+    "craco",
+    "craco-plugin",
+    "create-react-app",
+    "babel"
+  ],
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dealmore/craco-plugins.git",
+    "directory": "plugins/craco-plugin-babel-include"
+  },
+  "author": {
+    "name": "Felix Haus",
+    "url": "https://dealmore.de"
+  },
+  "files": [
+    "dist/**/*"
+  ],
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsdx build --entry index.ts --target node --format cjs"
+    "build": "tsdx build --entry index.ts --target node --format cjs",
+    "prepack": "cp ../../LICENSE ./",
+    "postpack": "rm ./LICENSE"
   },
   "peerDependencies": {
     "@craco/craco": "^5.0.0"
